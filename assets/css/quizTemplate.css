@@ -1,0 +1,76 @@
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+div{
+  background-color:#DE4862;
+  padding: .5%;
+  margin: .5%;
+  border-color: #c15f70;
+}
+
+#quiz {
+    text-indent: 10px;
+    display: none;
+}
+
+.button {
+    border:1px solid;
+    border-radius:1px;
+    padding: 1%;
+    position: relative;
+    float: right;
+    background-color: #c1465f;
+    color: #c1465f;
+    margin: .5%;
+}
+
+.button.active {
+    background-color: #E25E75;
+    color: #000;
+}
+
+button {
+    position: relative;
+    flex:auto;
+    text-align: center;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
+#container {
+    margin:5% 2.5%;
+    padding: 5% 2.5%;
+    background-color: #E25E75;
+    border:1px solid #fafaf0;
+    border-radius:1px;
+    color: #fff;
+    text-align: center;
+    font-family: "Courier New", Courier, monospace;
+}
+
+ul {
+    list-style-type: square;
+    padding: 0;
+    margin: 0;
+}
+
+#start {
+    display:none;
+    width: 90px;
+}
+
+@media (max-width: 900px){
+  #container{
+    padding: 5% 2.5% 7.5% 2.5%;
+  }
+}
+
+@media (max-width: 500px){
+  #container{
+    padding: 5% 2.5% 10% 2.5%;
+  }
+}
