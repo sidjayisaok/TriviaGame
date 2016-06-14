@@ -86,7 +86,7 @@ function startCountDown(i, p, f) {
         startCountDown(30, 1000, myFunction);
         return;
     }
-	//this part keeps the clock from contnuing after the game is over
+	//this part keeps the clock from continuing after the game is over
     else if (questionCounter > questions.length - 1){
       return;
     }
